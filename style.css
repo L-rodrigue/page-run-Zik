@@ -1,8 +1,9 @@
 *{
     margin: 0;
+    color: white;
 }
 body{
-    background:   url(img/runner.jpeg);
+    background: center / cover no-repeat url(img/runner.jpeg);
 }
 
 .logo{
@@ -18,6 +19,7 @@ body{
     position: absolute;
     left: -376px;
     bottom: 110px;
+    
 }
 .waves2{
     transform: rotate(90deg);
@@ -68,6 +70,10 @@ body{
     height: 842px;
     width: 550px;
 }
+
+nav{
+    text-decoration: none;  
+}
 .container{
     position: absolute;
     right: 70px;
@@ -76,7 +82,6 @@ body{
     height: 400px;
 }
 .script{
-    color: white;
     text-align: right;
 }
 
@@ -93,4 +98,17 @@ body{
     font-size: 24px;
     font-weight: lighter;
     padding-bottom: 50px;
+}
+.button{
+    background:linear-gradient(#F3B10F, #f38015);
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bolder;
+    font-style: italic;
+    /* margin-bottom: 10px; */
+}
+.reseaux img {
+    pad
 }
